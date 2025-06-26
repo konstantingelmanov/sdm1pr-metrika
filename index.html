@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Cтудия Метрика</title>
+
+    <link rel="stylesheet" href="styles/reset.css"> <!-- Файл сброса стилей CSS Эрика Мейера -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Подключение шрифта Manrope с Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/styles.css"> <!-- Файл с основными стилями CSS -->
+</head>
+<body>
+    <!-- Проект лендинга для фирмы "Студия Метрика". Верстка по макету из Figma. -->
+
+    <header class="nav-section">
+        <a href="/index.html" class="logo-link">
+            <img src="/resources/logo_metrika.png" class="logo-image" alt="Логотип Метрика">
+        </a>
+        <div class="nav-links">
+            <a href="#about_us" class="nav__link">О нас</a>
+            <a href="#projects_block" class="nav__link">Проекты</a>
+            <a href="#services_block" class="nav__link">Услуги</a>
+            <a href="#contacts" class="nav__link">Контакты</a>
+        </div>
+    </header>
+
+    <section class="section1">
+        <h1>Современные и стильные интерьеры для комфортной жизни</h1>
+        <div class="zero_block">
+            <p class="zero_block_text">Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией дизайн-проектов</p> 
+        </div>
+    </section>
+        
+    <section id="about_us" class="section2">
+        <h2>О нас</h2>
+        <p class="description">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. 
+            К нам обращаются за уютом, индивидуальными решениями и практичностью. 
+            Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>
+    
+        <a href="#services_block" class="link_services">Посмотреть услуги</a>
+    </section>
+
+    <section id="projects_block" class="section3">
+        <h2>Проекты</h2>
+        <ul> <!-- Список примеров проектов -->
+            <li class="project">
+                <img class="project__image" src="resources/Project1.png" alt="Комната с панорамными окнами и диваном">
+                <p class="project__text">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
+                <a class="project__link" href="/">Подробнее →</a>
+            </li>
+    
+            <li class="project">
+                <img class="project__image" src="resources/Project2.png" alt="Интерьер с телевизором">
+                <p class="project__text">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
+                <a class="project__link" href="/">Подробнее →</a>
+            </li>
+    
+            <li class="project">
+                <img class="project__image" src="resources/Project3.png" alt="Столовая зона в минимализме">
+                <p class="project__text">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</p>
+                <a class="project__link" href="/">Подробнее →</a>
+            </li> 
+        </ul>
+    </section>
+    <a href="/" class="link_projects">Смотреть все проекты</a>
+    
+    <section id="services_block" class="section4">
+        <div class="services">
+            <h2 class="servicesh2">Услуги</h2>
+            <ul>
+                <li class="services__ex">
+                    <img class="services__image" src="/resources/Uslugi1.jpg" alt="Строительный чертеж">
+                    <p class="services__text">Планировочное решение — от 2500₽/м²</p>
+                </li>
+    
+                <li class="services__ex">
+                    <img class="services__image" src="/resources/Uslugi2.jpg" alt="Карточки подбора цвета">
+                    <p class="services__text">Дизайн-проект — от 3000₽/м²</p>
+                </li>
+    
+                <li class="services__ex">
+                    <img class="services__image" src="/resources/Uslugi3.jpg" alt="Работа с чертежами">
+                    <p class="services__text">Авторский надзор — от 30 000₽ в месяц</p>
+                </li>
+    
+                <li class="services__ex">
+                    <img class="services__image" src="/resources/Uslugi4.jpg" alt="Паллеты с грузом на складе">
+                    <p class="services__text">Комплектация — 5% от стоимости спецификации</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section5">
+        <p class="section5_text">Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
+    </section>
+
+    <section id="contacts" class="section6">
+        <div class="text-wrapper-contacts">
+            <h2 class="contacts__h2">КОНТАКТЫ</h2>
+        </div>
+
+        <p class="contacts__phone">
+            <a href="tel:+79358954535" class="contacts__phone_link">+7 935  895-45-35</a>
+        </p>
+        <p class="contacts__mail">
+            <a href="mailto:hello@mail.com" class="contacts__mail_link">hello@mail.com</a>
+        </p>
+    </section>
+
+    <footer class="section7">
+        <div class="navfooter-links">
+            <a href="#about_us" class="navfooter__link">О нас</a>
+            <a href="#projects_block" class="navfooter__link">Проекты</a>
+            <a href="#services_block" class="navfooter__link">Услуги</a>
+            <a href="#contacts" class="navfooter__link">Контакты</a>
+        </div>
+        <div class="end_paragraph">
+            <p>студия дизайна интерьера Метрика — 2023</p>
+        </div>
+    </footer>
+</body>
+</html>
